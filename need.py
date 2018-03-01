@@ -19,7 +19,7 @@ for s in wb.sheets():
 		im = Image.open("template.jpg")  
 		draw = ImageDraw.Draw(im)
 		draw.text((161,534),values[5], fill=(0,0,0),font=ttfont)  
-		draw.text((161,735),values[6], fill=(0,0,0),font=ttfont)
+		draw.text((161,735),values[2], fill=(0,0,0),font=ttfont)
 		draw.text((161,935),values[7], fill=(0,0,0),font=ttfont)
 		draw.text((880,1700),values[0], fill=(0,0,0),font=ttfont)
 		save_filename = u'%s需求%s.jpg' % (values[2],values[0])
